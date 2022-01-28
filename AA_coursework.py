@@ -108,6 +108,7 @@ def weak_AA(outcomes, prediction, loss, learning_rate):
 def squash(ratio, S, offset):
     return offset + (1 / (1+ np.exp(-S *(ratio))))
 
+#change
 if __name__ ==  '__main__':
     data = pd.read_csv(r"C:\Users\Owner\Downloads\tennis1 (1).txt", sep='\s+')
     outs = data.iloc[:,1]
